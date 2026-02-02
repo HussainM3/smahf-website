@@ -189,6 +189,20 @@
     color: #999999;
 }
 
+/*** Ramadan ***/
+.ramadan-banner img {
+  width: 100%;         /* scales with page */
+  height: auto;        /* preserves aspect ratio */
+  max-width: 100%;     /* safety */
+}
+
+@media (min-width: 1200px) {
+  .ramadan-banner img {
+    max-height: 720px;
+    object-fit: cover;
+  }
+}
+
 
 /*** Causes ***/
 .causes-item .progress {
